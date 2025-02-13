@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1E3A8A;  /* Blue background for header */
+    color: white;
+    padding: 20px 0;
+    border-bottom: 5px solid #ffffff; /* White border under header */
+    text-align: center;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 5px;
+    border: 2px solid white;  /* Adding a white border around "Santa Maria" */
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
